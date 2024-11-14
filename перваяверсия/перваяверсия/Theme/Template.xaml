@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ControlTemplate TargetType="{x:Type Button}" 
+                     x:Key="template">
+        <Border Width="130" Height="25"
+            CornerRadius="12"
+            Background="{TemplateBinding Background}">
+            <ContentPresenter VerticalAlignment="Center"
+            HorizontalAlignment="Center"/>
+        </Border>
+    </ControlTemplate>
+    
+</ResourceDictionary>
